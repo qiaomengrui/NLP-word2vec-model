@@ -7,4 +7,4 @@ word2vec的整体思想是句子中相近的词之间是有联系的
 ### 2、CBOW的原理 
 1. CBOW是利用周围词预测中心词
 ## 改进（Hierarchical softmax 和 Negative Sampling）
-![图片名称](图片/skip-gram原理图.png)  
+![图片名称](https://github.com/qiaomengrui/NLP-word2vec-model/blob/master/%E5%9B%BE%E7%89%87/skip-gram%E5%8E%9F%E7%90%86%E5%9B%BE.png)  
