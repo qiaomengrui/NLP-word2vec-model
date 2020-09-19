@@ -30,7 +30,9 @@ skip-gram+HS：Q=C(D+D\*log2V)
 CBOW+NEG：Q=N\*D+D\*(K+1)  
 skip-gram+NEG：Q=C(D+D\*(K+1))  
 ## 五、超参数
-利用genism做word2vec时，其中dim一般选择100-500之间，min_count一般选择2-10之间，如果数据集少则将min——count调为1
+1. 利用genism做word2vec时，其中dim表示每个词的维度，dim一般选择100-500之间，min_count一般选择2-10之间，如果数据集少则将min_count调为1
+2. epochs表示迭代次数，需要根据特定的情况来设置大小
+3. window表示窗口大小，通常大小设置为2，也可以根据需求来设置
 ## 六、word2vec相关知识
 ### 1、one-hot和分布式表示
 1. one-hot编码是将一个词转换成[0 0 0 0 0 1 0....]
