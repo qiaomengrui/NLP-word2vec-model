@@ -2,7 +2,7 @@
 **word2vec模型目的：求出能表示出词与词之间的关系的词向量  
 word2vec的整体思想：句子中相近的词之间是有联系的**
 ## 一、模型原理
-模型实现两种方法：
+模型实现（两种方法）：
 1. skip-gram+softmax
 2. CBOW+softmax
 ### 1、skip-gram的原理
