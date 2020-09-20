@@ -15,6 +15,7 @@ skip-gram 原理图详细步骤：
 ### 2、CBOW的原理
 CBOW是利用周围词预测中心词  
 ## 二、改进
+主要是在输出层上改进
 ### 1、Hierarchical softmax（层次softmax）
 通过其将维度V变为log2V，采用哈夫曼树的思想将softmax转换成计算log<font size=2>2</font>V个sigmoid
 ### 2、Negative Sampling（负采样）
