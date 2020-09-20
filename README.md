@@ -75,7 +75,9 @@ Word2vec和glove都是可以将词编成向量
 1. 在训练过程中仅仅考虑了window范围内的词间关系，没有考虑到全局词
 2. 对于中文语料效果不好，分词粒度会严重影响训练效果
 3. 对于现在的词来说，一词可能会有多个意思，但是word2vec并不能将其表现出来
-## 八、word2vec总结
+## 八、word2vec论文
+论文名称：Efficient Estimation of Word Representations inVector Space
+## 九、word2vec总结
 word2vec主要是利用词向量来表示每个词之间的关系，也许有些词在人的眼里发现不出什么相似之处，但是通过电脑计算却能发现，例如：A与B有关系，B与C有关系，那A和C有关系吗？
 所以为了表示词间关系，并且不能像one-hot编码那样词与词是独立的，就需要使用这个模型
 
