@@ -2,7 +2,9 @@
 **模型目的：求出能表示出词与词之间的关系的词向量  
 word2vec的整体思想：句子中相近的词之间是有联系的**
 ## 一、模型原理
-包含两种方式，分别是skip-gram和CBOW
+模型实现两种方法：
+1. skip-gram+softmax
+2. CBOW+softmax
 ### 1、skip-gram的原理
 skip-gram是利用中心词预测周围window内的词（baseline使用python完成，在上方文件中）  
 内部是通过矩阵计算实现的，具体实现如下图  
