@@ -79,7 +79,7 @@ Word2vec和glove都是可以将词编成向量
 word2vec主要是利用词向量来表示每个词之间的关系，也许有些词在人的眼里发现不出什么相似之处，但是通过电脑计算却能发现，例如：A与B有关系，B与C有关系，那A和C有关系吗？
 所以为了表示词间关系，并且不能像one-hot编码那样词与词是独立的，就需要使用这个模型
 
-
+> word2vec中skip-gram代码：https://github.com/qiaomengrui/NLP-word2vec-model/tree/master/baseline
 > 论文：Efficient Estimation of Word Representations inVector Space
 
 
